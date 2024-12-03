@@ -41,8 +41,8 @@ const MyStack = () => {
   ];
 
   return (
-    <section className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <h2 className="text-4xl font-bold text-white mb-4 text-center mt-4">My Skills</h2>
+    <section className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 sm:mt-20">
+      <h2 className="text-4xl font-bold text-white mb-4 text-center lg:pt-6 sm:pt-7">My Skills</h2>
       <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16">
         <div className="flex flex-wrap justify-center gap-8 items-center">
           {stackIcons.map((tech, index) => (
