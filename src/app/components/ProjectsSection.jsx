@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "React movie website ",
     description: "A  dynamic, user-friendly website built with React, designed for exploring movies to learn core concepts of React. Leveraging the power of an external movie database API (e.g., TMDB API).",
-    image: "/images/projects/movies.jpg",
+    image: "/images/projects/movie.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/chemoiko/React-movie-website",
     previewUrl: "https://moviewebsite-phi.vercel.app",
