@@ -1,6 +1,10 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { FaGithub } from 'react-icons/fa'  // Font Awesome style
+// or
+import { VscGithub } from 'react-icons/vsc' // Visual Studio Code style
+
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
@@ -14,13 +18,15 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
             href={gitUrl} target="_blank"
             className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
-            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            {/* <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" /> */}
+             <span className="text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white text-sm whitespace-nowrap">
+                View <br/>Live</span>
           </Link>
           <Link
             href={previewUrl} target="_blank"
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
-            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            <FaGithub  className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
         </div>
       </div>
