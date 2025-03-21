@@ -5,6 +5,18 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+
+  {
+    id: 0,
+    title: "AI-Powered MatchMaking Platform",
+    description:"• Collaborated with a cross-functional team to develop an AI-powered matchmaking platform that automatically connects candidates with the most suitable jobs based on their skills, experience, and project requirements.\n\n• Designed and implemented reusable React components while managing global state with Zustand.\n\n• Developed and implemented backend endpoints for all CRUD operations (GET, POST, PUT, DELETE).\n\n• Worked in an Agile environment, following Sprint methodology for efficient development and deployment."
+,
+    image: "/images/projects/ai-powered.png",
+  
+    tag: ["All", "Web"],
+    gitUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    previewUrl: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  },
   {
     id: 1,
     title: "Django Student Management System",
